@@ -52,7 +52,7 @@
 
 /* UI-KIT Modified Components */
 .uk-container{
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .uk-subnav-pill>.uk-active>a {
@@ -91,14 +91,12 @@
 	font-family: 'Open-Sauce';
 	src: url(/fonts/Open-Sauce/OpenSauceSans-Regular.ttf);
 	font-style: normal;
-	font-weight: 100;
 }
 
 @font-face {
 	font-family: 'Open-Sauce-Bold';
 	src: url(/fonts/Open-Sauce/OpenSauceSans-Bold.ttf);
 	font-style: normal;
-	font-weight: 100;
 }
 
 .tt-norms{
@@ -112,12 +110,10 @@
 
 .open-sauce{
   font-family: Open-Sauce;
-	font-size: 22px;
 }
 
 .open-sauce-bold{
   font-family: Open-Sauce-Bold;
-	font-size: 22px;
 }
 
 /* Colors d6bca0 */
