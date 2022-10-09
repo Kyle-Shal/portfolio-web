@@ -1,3 +1,17 @@
+/* html{
+  height: 100%;
+} */
+
+body{
+display: flex;
+flex-direction: column;
+
+min-height: 100%;
+}
+
+footer{
+  margin-top: auto;
+}
 /* IDs */
 #arrow{
   color: #d6bca0;
@@ -12,6 +26,9 @@
 #project-cards .uk-card{
   border-radius: 25px;
 }
+
+
+
 /* Modifying Classes */
 .border{
     border-radius: 20px;
@@ -37,7 +54,7 @@
 
 
 /* Custom Components */
-.header {
+/* .header {
   padding-top: 30px;
   padding-bottom: 20px;
   background:  url("../assets/hero.jpg");
@@ -45,7 +62,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
-}
+} */
 .header-button{
   border-radius: 25px; 
   margin-top: 15px;
