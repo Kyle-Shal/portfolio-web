@@ -1,0 +1,43 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Photos">
+	<div class="top-wrap uk-position-relative uk-light uk-background-secondary">
+		<div class="uk-cover-container uk-dark uk-flex uk-flex-middle top-wrap-height" style="height: 30vh;">
+			<div class="uk-container uk-flex-auto top-container uk-position-relative " data-uk-parallax="y: 0,50; easing:0; opacity:0.2">
+				<div class="tt-norms" data-uk-scrollspy="cls: uk-animation-slide-right-medium; target: > *; delay: 150">
+					<h1 class="uk-text-primary uk-margin-small-bottom tt-norms-bold" style="font-size: 70px;">Photos 📷</h1>
+					<h3 class="uk-margin-remove-top tt-norms">Oops! This part of my website is under construction 🚧 <div uk-spinner></div></h3> <br>
+				</div>
+			</div>
+			<!-- TOP IMAGE -->
+			<!-- <img src="" alt="" style="z-index: -1;" data-uk-cover data-uk-img data-uk-parallax="opacity: 1,0.1; easing:0"> -->
+			<!-- /TOP IMAGE -->
+			
+		</div>
+		<div class="uk-section uk-section-secondary uk-padding-remove-top">
+			<div class="uk-container uk-flex-auto top-container uk-position-relative" >
+				<div class="tt-norms">
+					<div style="font-size: 18px;">
+						<div>
+							<p>WIP: The goal is to host images of the different places I've been, including hiking, vacations, travels and even what my home looks like.</p>
+							<p>Aim: To have a photo gallery that is viewable in both grid and map form</p>
+							<ul>
+								<li>
+									Grid form allows the user to slide through the photos when clicked on.
+								</li>
+								<li>
+									The map form will be made using <strong><a href="https://reactjs.org/">React</a></strong> and <strong><a href="https://www.mapbox.com/">Mapbox GL</a></strong> to display photos using their geotagged locations all over the map!
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class=" uk-position-medium uk-position-z-index uk-text-center">
+						<a data-uk-icon="icon: arrow-right; ratio: 2" style="font-size: 18px; margin-top:4rem; margin-bottom: 3rem;" href="/"> Go back home</a>
+					</div>
+				</div>
+			</div>
+		</div>			
+	</div>
+</Layout>
