@@ -5,28 +5,23 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="About">
 
-	<div class="top-wrap uk-position-relative uk-light uk-background-secondary">
 <!-- TOP CONTAINER -->
-		<div class="uk-cover-container uk-dark uk-flex uk-flex-middle top-wrap-height" style="height: 30vh;">
-			<div class="uk-container uk-flex-auto top-container uk-position-relative " data-uk-parallax="y: 0,50; easing:0; opacity:0.2">
+		<div class="uk-section uk-section-secondary uk-light" >
+			<div class="uk-container" data-uk-parallax="y: 0,50; easing:0; opacity:0.2">
 				<div class="tt-norms" data-uk-scrollspy="cls: uk-animation-slide-right-medium; target: > *; delay: 150">
 					<h1 class="uk-text-primary uk-margin-small-bottom tt-norms-bold" style="font-size: 70px;">About Me.</h1>
 					<h3 class="uk-margin-remove-top tt-norms"> A technical documentation of Kyle</h3> <br>
 				</div>
-			</div>
-			<!-- TOP IMAGE -->
-			<!-- <img src="" alt="" style="z-index: -1;" data-uk-cover data-uk-img data-uk-parallax="opacity: 1,0.1; easing:0"> -->
-			<!-- /TOP IMAGE -->
-			
+			</div>			
 		</div>
 		<div class="uk-section uk-section-secondary uk-padding-remove-top">
 			<div class="uk-container tt-norms uk-position-relative">
 				<h3 class="tt-norms-bold" style="font-size: 24px;"> Belize</h3>
-					<div class="uk-child-width-1-2@m" uk-grid>
-						<div>
+					<div class="" uk-grid>
+						<div class="uk-width-1-1@s uk-width-1-2@m">
 							<p>I'm from <strong><a href="https://www.travelbelize.org/">Belize</a></strong>, a country located in the Caribbean. English is the official language of Belize, but most of the population also speaks <strong><a href="https://www.belizeadventure.ca/belizean-creole-kriol/">Creole</a></strong>, and many Belizeans are multilingual.</p>						
 						</div>
-						<div class="uk-position-right" style="padding-left: 100px;">
+						<div class="uk-width-1-1@s uk-width-1-2@m" style="padding-left: 100px;">
 							<img src="/assets/kyle-headshot.png" width="150px" style="border-radius: 50%;" alt="">
 						</div>
 					</div>
@@ -41,7 +36,7 @@ import Layout from '../layouts/Layout.astro';
 				<p></p> -->
 				<h3 class="tt-norms-bold" style="font-size: 24px;"> Videography</h3>
 				<p>I started videography at the age of 16 through vlogging and creating montages. Since then, I have grown my filmmaking and editing skills and now utilise them for my professional career.
-					One of the most important things I have learned from filmmaking is how to understand audiences. Different people will always have their own interests and choices of entertainment. 
+					One of the most important things I have learned from filmmaking is how to better understand audiences. Different people will always have their own interests and choices of entertainment. 
 					However, understanding my target audience allows me to better capture their attention and provide a story that I know they will love .
 				</p>
 				<!-- <strong><a href="https://www.youtube.com/channel/UCMOfzujprK18C6ely3E1ndw">Checkout my Youtube Channel.</a></strong> -->
@@ -57,9 +52,7 @@ import Layout from '../layouts/Layout.astro';
 			</div>
 
 			<div class=" uk-position-medium uk-position-z-index uk-text-center">
-				<a data-uk-icon="icon: arrow-right; ratio: 2" style="font-size: 18px; margin-top:4rem;" href="./projects.html"> Checkout my projects</a>
+				<a data-uk-icon="icon: arrow-right; ratio: 2" style="font-size: 18px; margin-top:4rem;" href="/projects"> Checkout my projects</a>
 			</div>
 		</div>
-	
-	</div>
-</Layout>
+	</Layout>
