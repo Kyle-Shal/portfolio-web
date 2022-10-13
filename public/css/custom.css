@@ -33,6 +33,11 @@ footer{
 .border{
     border-radius: 20px;
 }
+
+.button-border{
+  border-radius: 0px 0px 25px 25px;
+  background-color: #006daa;
+}
 .position-center{
     position: absolute;
     left: 100px;
