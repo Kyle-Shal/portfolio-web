@@ -98,7 +98,7 @@ footer{
 }
 /* FONTS */
 
-@font-face {
+/* @font-face {
 	font-family: 'TT-Norms';
 	src: url(/fonts/TT-Norms-sv/TTNorms-Regular.otf);
 	font-style: normal;
@@ -109,7 +109,7 @@ footer{
 	src: url(/fonts/TT-Norms-sv/TTNorms-Bold.otf);
 	font-style: normal;
 	font-weight: 100;
-}
+} */
 
 @font-face {
 	font-family: 'Open-Sauce';
@@ -123,14 +123,14 @@ footer{
 	font-style: normal;
 }
 
-.tt-norms{
+/* .tt-norms{
 	font-family: TT-Norms;
   color: white;
 }
 .tt-norms-bold{
 	font-family: TT-Norms-Bold;
 	font-size: 50px;
-}
+} */
 
 .open-sauce{
   font-family: Open-Sauce;
